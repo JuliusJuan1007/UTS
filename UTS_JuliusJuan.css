@@ -1,0 +1,335 @@
+*{padding : 0; margin: 0;}
+
+.container {margin: auto;}
+
+/* CSS Header */
+header { height: 100px; background: #FFFFFF; overflow: hidden;}
+header .kiri .logo img {width: 50px; height: 50px; margin: 25px 0 0 50px; float: left;}
+header .kiri  h3 {font-size: 24px; float: left;margin-top: 38px; margin-left: 10px;}
+header .pulldownmenu {float: left; font-size: 16px; color: white; margin-top: 32px; margin-left: 100px; }
+
+header .kanan p {
+	;float: left; font-size: 16px ; margin-top: 42px; margin-left: 10px;
+}
+
+header .kanan .number img {
+			width: 20px; height: 20px; float: left; margin-top: 40px;
+}
+
+nav ul li { float: left; list-style: none; 
+  background: #FFFFFF; margin-top: 10px;
+}
+
+nav ul li a { margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+
+nav ul li ul { display: none; }
+
+nav ul li:hover > ul {display: block;}
+
+
+nav ul li ul {position: absolute;}
+
+nav ul li ul li { float: none; 
+  position: relative;
+}
+nav ul li:hover { background: #fff; }
+nav ul li a:hover { color: #7bed9f; }
+
+header .sosmed {
+	float: left; border-left: 3px solid red; margin-left: 10px; margin-top: 37px;
+}
+header .sosmed img {
+	width: 25px; margin-left: 15px; 
+}
+header .find img{
+	width: 43px; height: 44px; margin-top: 27px; margin-bottom: 27px; margin-left: 25px;
+}
+
+header .find {width: 89.8px ;background: #ff4757 ; float: left; height: 100px;  z-index: 9;}
+
+article {overflow: hidden;  }
+article .indo {height: 800px;position: relative; }
+article .indo img {  height: 800px; display: block;}
+article .indo .txt {font-family: sans-serif;  font-size: 80px; color: #fff; position: absolute; width: 50%; height: auto; text-align: center; bottom: 60%; left: 25%;}
+article .indo .ket {position: absolute; font-family: sans-serif; font-size: 50px; width: 50%; height: auto; text-align: center; bottom: 40%; left: 25%; color: white;}
+
+
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 46px 30px;
+  cursor: pointer; }
+  /* Where To-Go */
+
+.bawahindo {background-color: #303952; }
+form {float: left;
+    background: #303952;
+    padding: 50px 0 30px 0;
+    width: 100%;
+    overflow: hidden;}
+
+form .title {float: left;
+    margin-left: 90px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;}
+
+form .title label {display: block;
+    line-height: 30px;}
+
+form .title2 input {margin: 2px;
+    line-height: 26px;}
+
+form .title2 input.input {width: 200px;
+    padding: 3px 18px 3px 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    background: transparent;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;}
+
+form .title2 select {width: 180px;
+    line-height: 26px;
+    padding: 7px 18px 7px 10px;
+    margin: 2px;
+    font-size: 16px;
+    margin-right: 10px; 
+    background: #303952;
+    color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;}
+
+form .title2 button[type=button] {padding: 12px 13px 9px 13px;
+    width: 100px;
+    color: whitesmoke;
+    background-color: #ff4757;
+    font-size: 15px;
+    border: 0.5px solid #ff4757;
+    border-radius: 5px;}
+
+form .title2 button[type=button]:hover {color: black;
+    background-color: rgb(75, 207, 250);
+    transition: background 0.2s ease-in-out;}
+article .bawahindo .Subscribe a  {color: white; text-decoration: none;}
+
+article .tengah {height: 220px;}
+article .tengah .text h2 { margin-top: 100px ; text-align: center; font-size: 42px; margin-bottom: 20px; font-family: georgia;}
+article .tengah .text p { text-align: center; font-size: 19px; color: #808e9b; font-family: georgia; }
+
+
+.kolom {overflow: hidden;   }
+ .kolom  p { ; height: auto; font-size: 14px; }
+ .kolom .left .txt p {margin-left: 55px;}
+ .kolom .bottomleft .txt p {margin-left: 55px;}
+ .kolom .left {float: left; margin-right: 15px; overflow: hidden;}
+ .kolom .left img {width: 360px; height: 260px ;float: left ;margin-right: 8px; margin-left: 50px; border-radius: 10%;}
+ .kolom .left .bottomleft {;float: left; margin-right: 15px; overflow: hidden; margin-top: 40px;}
+ .kolom .left .bottomleft img {width: 360px; height: 260px ;float: left ;margin-right: 8px; margin-left: 50px; border-radius: 10%;}
+
+ .kolom .center {float: left; margin-right: 15px; overflow: hidden;}
+ .kolom .center img {  width: 360px; height: 260px; float: left; margin-right: 8px; border-radius: 10%;}
+ .kolom .center .bottomcenter { float: left;  margin-right: 15px; overflow: hidden; margin-top: 40px;}
+ .kolom .center .bottomcenter img { width: 360px; height: 260px ;float: left ;margin-right: 8px; border-radius: 10%; }
+
+ .kolom .right { float: left; overflow: hidden; }
+ .kolom .right img { width: 360px; height: 260px; float: left; border-radius: 10%; }
+ .kolom .right .bottomright { float: left;  margin-right: 15px; overflow: hidden; margin-top: 40px; }
+ .kolom .right .bottomright img { width: 360px; height: 260px ;float: left ;margin-right: 8px; border-radius: 10%; }
+
+article .letter {height: 150px; background: #2f3542; overflow: hidden; margin-top: 100px;}
+article .letter .text2 h2 {font-size: 28px; font-family: georgia; margin-top: 60px; margin-left: 50px; float: left; color: white;}
+article .letter .itemform {float: left;  margin-left: 20px; border-radius: 10%; margin-top: 35px; }
+article .letter .Subscribe {float: left; margin-top: 55px; margin-left: 50px; font-family: georgia; font-size: 28px; 
+																 background-color: #ff4757;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 46px 30px;
+  cursor: pointer; }
+ article .letter .Subscribe a {color: white; text-decoration: none;}
+ article .letter .Subscribe a:hover {color: #3dc1d3;}
+
+article .bawah {height: 220px;}
+article .bawah .places h2 {margin-top: 100px ; text-align: center; font-size: 42px; font-family: georgia; margin-bottom: 20px;}
+article .bawah .places p {text-align: center; font-size: 18px; font-family: georgia; color: #808e9b;}
+
+.kolom2 {overflow: hidden; }
+ .kolom2  p { ; height: auto; bottom: 20%; left: 15%; font-size: 14px;}
+ .kolom2 .left {float: left; margin-right: 15px; overflow: hidden;}
+ .kolom2 .left img {width: 360px; height: 260px ;float: left ;margin-right: 8px; margin-left: 50px; border-radius: 10%;}
+ .kolom2 .left .txt {margin-left: 55px;}
+ .kolom2 .left .bottomleft {;float: left; margin-right: 15px; overflow: hidden; margin-top: 40px;}
+ .kolom2 .left .bottomleft img {width: 360px; height: 260px ;float: left ;margin-right: 8px; margin-left: 50px; border-radius: 10%;}
+ .kolom2 .left .bottomleft .txt1 {margin-left: 55px;}
+
+ .kolom2 .center {float: left; margin-right: 15px; overflow: hidden;}
+ .kolom2 .center img {  width: 360px; height: 260px; float: left; margin-right: 8px; border-radius: 10%;}
+ .kolom2 .center .bottomcenter { float: left;  margin-right: 15px; overflow: hidden; margin-top: 40px;}
+ .kolom2 .center .bottomcenter img { width: 360px; height: 260px ;float: left ;margin-right: 8px; border-radius: 10%; }
+
+ .kolom2 .right { float: left; overflow: hidden; }
+ .kolom2 .right img { width: 360px; height: 260px; float: left; border-radius: 10%; }
+ .kolom2 .right .bottomright { float: left;  margin-right: 15px; overflow: hidden; margin-top: 40px; }
+ .kolom2 .right .bottomright img { width: 360px; height: 260px ;float: left ;margin-right: 8px; border-radius: 10%; }
+
+ article .kolom2 .more {float: left; margin-top: 100px; margin-left: 550px ; font-family: georgia; font-size: 28px; 
+																 background-color: #ff4757;
+
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer; }
+
+  article .kolom2 .more a:hover {color: #3dc1d3;}
+  article .kolom2 .more a {color: white; text-decoration: none;}
+
+  article .indo2 {height: 800px;position: relative; margin-top: 150px; margin-bottom: 150px; }
+article .indo2 img {  height: 800px; width: 1500px; }
+article .indo2 .txt2 {font-family: sans-serif;  font-size: 60px; color: #fff; position: absolute; width: 50%; height: auto; text-align: center; bottom: 50%; left: 25%;}
+article .indo2 .logo img {position: absolute; width: 100px; height: 100px; text-align: center; bottom: 30%; left: 46%; }
+
+.review {overflow: hidden; padding: 5px 100px; margin-bottom: 100px;}
+.review .journey {float: left; margin-right: 80px; overflow: hidden; margin-left: 80px;}
+.review p {text-align: center; font-family: sans-serif;  height: auto; color: gray; margin-top: 10px; }
+.review .journey img {width: 150px; height: 150px;  margin-right: 50px; margin-left: 75px; } 
+
+.review .lux {  margin-right: 80px; overflow: hidden; float: left; }
+.review .lux img {width: 150px; height:150px;  margin-right: 20px; margin-left: 55px; }
+.review .guide { overflow: hidden; float: left;}
+.review .guide img {width: 150px; height: 150px;  margin-left: 55px;}
+
+.komen {background: #c23616; padding-bottom: 80px;}
+.komen p {color: white; text-align: center; font-size: 20px; font-family: inherit; margin-top: 10px;}
+.komen .name p {color: white; text-align: center; font-family: inherit; margin-top: 10px; font-size: 18px;}
+.komen img {width: 180px; height: 150px; margin-left: 542px; margin-top: 100px;  clip-path: circle(70px at center);}
+
+.pagination {
+  display: inline-block; margin-top: 25px; margin-left: 567px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid ;
+  margin: 0 6px;
+  background: black;
+  border-radius: 50%;
+  font-size: 1px;
+}
+
+.pagination a.active {
+  background-color: whitesmoke;
+  color: white;
+  border: 1px solid ;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.bot {overflow: hidden; margin-top: 150px; margin-bottom: 150px;}
+.bot .jdl {text-align: center; font-size: 42px; margin-bottom: 40px;}
+.kolom3 {overflow: hidden;}
+.kolom3  p { margin-top: 20px;  height: auto; bottom: 20%; left: 15%; font-size: 17px; color: gray; font-family: inherit;}
+.kolom3 .left {float: left; margin-right: 15px; overflow: hidden;}
+.kolom3 .left .txt1 p {margin-left: 55px; margin-bottom: 10px; margin-top: 10px;}
+.kolom3 .left .txt1 h3 {margin-left: 55px; font-family: monospace; font-size: 20px;}
+.kolom3 .left img {width: 360px; height: 260px ;float: left ;margin-right: 8px; margin-left: 50px; border-radius: 10%; margin-bottom: 10px;}
+.kolom3 .tgh {float: left; margin-right: 15px; overflow: hidden;}
+.kolom3 .tgh img {  width: 360px; height: 260px; float: left; margin-right: 8px; border-radius: 10%; margin-bottom: 10px;}
+.kolom3 .tgh h3 {font-size: 20px;  margin-top: 10px; font-family: monospace;}
+.kolom3 .right { float: left; overflow: hidden; }
+.kolom3 .right img { width: 360px; height: 260px; float: left; border-radius: 10%; margin-bottom: 10px; }
+.kolom3 .right h3 {font-size: 20px;  margin-top: 10px; font-family: monospace;}
+
+/* Footer */
+footer {background-color: rgb(4, 14, 39);
+}
+
+.topfooter {padding-top: 115px;
+    padding-bottom: 129px;
+    font-size: 14px;}
+
+footer .container {margin: auto;
+    width: 1240px;}
+
+.topfooter h3 {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 45px;}
+
+.topfooter li {
+    line-height: 36px;
+    list-style-type: none;
+}
+
+.topfooter a {
+    color: lightgray;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.topfooter a:hover {color: #BC8F8F;}
+
+.first-coloumn, .second-coloumn, .third-coloumn, .fourth-coloumn {padding: 0 10px;
+    display: inline-block;
+    vertical-align: text-top;} 
+
+.first-coloumn {margin-left: 40px;
+    width: 345px;}
+
+.first-coloumn .logoimage img {width: 75px;
+    height: 75px;
+    object-fit: cover;
+    margin-bottom: 45px;}
+
+.first-coloumn p {color: lightgray;
+    line-height: 26px;}
+
+.first-coloumn .socialmedia {margin-top: 45px;}
+
+.first-coloumn .socialmedia li {font-size: 20px;
+    display: inline-block;
+    margin: 0 7px;}
+
+.second-coloumn {width: 180px;}
+
+.third-coloumn {width: 275px;}
+
+.third-coloumn li {width: 127px;
+    display: inline-block;}
+
+.fourth-coloumn {width: 275px;}
+
+.fourth-coloumn a img {width: 79px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 5px;
+    object-fit: cover;}
+
+.bottom-footer .container {width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 27px 0;
+    border-top: 1px solid lightgray;}
+
+.bottom-footer p {color: lightgray;
+    font-size: 14px; font-family: monospace;}
