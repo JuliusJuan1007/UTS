@@ -3,10 +3,10 @@
 .container {margin: auto;}
 
 /* CSS Header */
-header { height: 100px; background: #FFFFFF; overflow: hidden;}
+header { height: 100px; background: #FFFFFF; overflow: hidden; }
 header .kiri .logo img {width: 50px; height: 50px; margin: 25px 0 0 50px; float: left;}
 header .kiri  h3 {font-size: 24px; float: left;margin-top: 38px; margin-left: 10px;}
-header .pulldownmenu {float: left; font-size: 16px; color: white; margin-top: 32px; margin-left: 100px; }
+header .pulldownmenu {float: left; font-size: 16px; color: white; margin-top: 32px; margin-left: 90px;  }
 
 header .kanan p {
 	;float: left; font-size: 16px ; margin-top: 42px; margin-left: 10px;
